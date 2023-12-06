@@ -7,37 +7,26 @@ import (
 	"strings"
 )
 
-func String(text string) string {
+func jehad(text string) string {
 	if len(text) == 0 {
 		return ""
 	}
-	chars := []byte(text)
-	s := getArt(chars[0])
-	for i := 1; i < len(chars); i++ {
-		s = horizontalMerge(s, getArt(chars[i]))
-	}
-
-	return strings.Replace(strings.Join(s, "\n"), "$", " ", -1)
-}
-
-func horizontalMerge(left, right []string) []string {
+	mr := []byte(text)
 	var result []string
-
-	minLength := len(left)
-	if len(right) < minLength {
-		minLength = len(right)
+	for i := 0; i < len(mr); i++ {
+		asciim := getArt(mr[i])
+		if i == 0 {
+			result = asciim
+		} else {
+			for j := 0; j < len(result); j++ {
+				result[j] += asciim[j]
+			}
+		}
 	}
-
-	for i := 0; i < minLength; i++ {
-		mergedString := left[i] + right[i]
-		result = append(result, mergedString)
-	}
-
-	return result
+	return strings.Replace(strings.Join(result, "\n"), "$", " ", -1)
 }
-
 func main() {
-	fmt.Println("Enter words:")
+	fmt.Println("Enter the string:")
 	reader := bufio.NewReader(os.Stdin)
 	text, err := reader.ReadString('\n')
 	if err != nil {
@@ -47,7 +36,7 @@ func main() {
 	lines := strings.Split(strings.TrimSpace(text), "\\n")
 	asciiArt := []string{}
 	for _, line := range lines {
-		asciiArt = append(asciiArt, String(line))
+		asciiArt = append(asciiArt, jehad(line))
 	}
 	asciiArtText := strings.Join(asciiArt, "\n")
 	fmt.Println(asciiArtText)
