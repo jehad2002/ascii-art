@@ -9,6 +9,8 @@ func getArt(char byte) []string {
 		"  $$   ",
 		" $$    ",
 		"$$     ",
+		"       ",
+		"       ",
 	}
 	font[33] = []string{
 		"    __",
@@ -16,6 +18,8 @@ func getArt(char byte) []string {
 		"  / / ",
 		" /_/  ",
 		"(_)   ",
+		"      ",
+		"      ",
 		"      ",
 	}
 	font[34] = []string{
@@ -25,6 +29,8 @@ func getArt(char byte) []string {
 		" $   ",
 		"$    ",
 		"     ",
+		"     ",
+		"     ",
 	}
 	font[35] = []string{
 		"     __ __ ",
@@ -32,6 +38,8 @@ func getArt(char byte) []string {
 		" /_  _  __/",
 		"/_  _  __/ ",
 		" /_//_/    ",
+		"           ",
+		"           ",
 		"           ",
 	}
 	font[36] = []string{
@@ -41,6 +49,8 @@ func getArt(char byte) []string {
 		" (_  ) ",
 		"/  _/  ",
 		"/_/    ",
+		"       ",
+		"       ",
 	}
 	font[37] = []string{
 		"   _   __",
@@ -48,6 +58,8 @@ func getArt(char byte) []string {
 		"   _/_/  ",
 		" _/_/_   ",
 		"/_/ (_)  ",
+		"         ",
+		"         ",
 		"         ",
 	}
 	font[38] = []string{
@@ -57,6 +69,8 @@ func getArt(char byte) []string {
 		"/ /_/  < ",
 		"\\____/\\/ ",
 		"         ",
+		"         ",
+		"         ",
 	}
 	font[39] = []string{
 		"  _ ",
@@ -64,6 +78,8 @@ func getArt(char byte) []string {
 		" |/ ",
 		" $  ",
 		"$   ",
+		"    ",
+		"    ",
 		"    ",
 	}
 	font[40] = []string{
@@ -73,6 +89,8 @@ func getArt(char byte) []string {
 		" / /   ",
 		"/ /    ",
 		"|_|    ",
+		"       ",
+		"       ",
 	}
 	font[41] = []string{
 		"     _ ",
@@ -81,6 +99,8 @@ func getArt(char byte) []string {
 		"   / / ",
 		" _/_/  ",
 		"/_/    ",
+		"       ",
+		"       ",
 	}
 	font[42] = []string{
 		"       ",
@@ -88,6 +108,8 @@ func getArt(char byte) []string {
 		" |    /",
 		"/_ __| ",
 		" |/    ",
+		"       ",
+		"       ",
 		"       ",
 	}
 	font[43] = []string{
@@ -97,6 +119,8 @@ func getArt(char byte) []string {
 		"/_  __/",
 		" /_/   ",
 		"       ",
+		"       ",
+		"       ",
 	}
 	font[44] = []string{
 		"   ",
@@ -105,6 +129,8 @@ func getArt(char byte) []string {
 		" _ ",
 		"( )",
 		"|/ ",
+		"   ",
+		"   ",
 	}
 	font[45] = []string{
 		"       ",
@@ -112,6 +138,8 @@ func getArt(char byte) []string {
 		" ______",
 		"/_____/",
 		"  $    ",
+		"       ",
+		"       ",
 		"       ",
 	}
 	font[46] = []string{
@@ -121,6 +149,8 @@ func getArt(char byte) []string {
 		" _ ",
 		"(_)",
 		"   ",
+		"   ",
+		"   ",
 	}
 	font[47] = []string{
 		"       __",
@@ -128,6 +158,8 @@ func getArt(char byte) []string {
 		"   _/_/  ",
 		" _/_/    ",
 		"/_/      ",
+		"         ",
+		"         ",
 		"         ",
 	}
 	font[48] = []string{
@@ -137,6 +169,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\____/  ",
 		"        ",
+		"        ",
+		"        ",
 	}
 	font[49] = []string{
 		"   ___",
@@ -144,6 +178,8 @@ func getArt(char byte) []string {
 		"  / / ",
 		" / /  ",
 		"/_/   ",
+		"      ",
+		"      ",
 		"      ",
 	}
 	font[50] = []string{
@@ -153,6 +189,9 @@ func getArt(char byte) []string {
 		" / __/ ",
 		"/____/ ",
 		"       ",
+		"       ",
+		"       ",
+		"       ",
 	}
 	font[51] = []string{
 		"   _____",
@@ -160,6 +199,8 @@ func getArt(char byte) []string {
 		"   /_ < ",
 		" ___/ / ",
 		"/____/  ",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[52] = []string{
@@ -169,6 +210,8 @@ func getArt(char byte) []string {
 		"/__  __/",
 		"  /_/   ",
 		"        ",
+		"        ",
+		"        ",
 	}
 	font[53] = []string{
 		"    ______",
@@ -176,6 +219,8 @@ func getArt(char byte) []string {
 		"  /___ \\  ",
 		" ____/ /  ",
 		"/_____/   ",
+		"          ",
+		"          ",
 		"          ",
 	}
 	font[54] = []string{
@@ -185,6 +230,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\____/  ",
 		"        ",
+		"        ",
+		"        ",
 	}
 	font[55] = []string{
 		" _____",
@@ -192,7 +239,9 @@ func getArt(char byte) []string {
 		"  / / ",
 		" / /  ",
 		"/_/   ",
-		"      ",
+		"       ",
+		"       ",
+		"       ",
 	}
 	font[56] = []string{
 		"   ____ ",
@@ -200,7 +249,9 @@ func getArt(char byte) []string {
 		" / __  /",
 		"/ /_/ / ",
 		"\\____/  ",
-		"        ",
+		"       ",
+		"       ",
+		"       ",
 	}
 	font[57] = []string{
 		"   ____ ",
@@ -208,7 +259,9 @@ func getArt(char byte) []string {
 		" / /_/ /",
 		" \\__, / ",
 		"/____/  ",
-		"        ",
+		"       ",
+		"       ",
+		"       ",
 	}
 	font[58] = []string{
 		"     ",
@@ -216,7 +269,9 @@ func getArt(char byte) []string {
 		"  (_)",
 		" _   ",
 		"(_)  ",
-		"     ",
+		"       ",
+		"       ",
+		"       ",
 	}
 	font[59] = []string{
 		"     ",
@@ -225,6 +280,8 @@ func getArt(char byte) []string {
 		" _   ",
 		"( )  ",
 		"|/   ",
+		"      ",
+		"      ",
 	}
 	font[60] = []string{
 		"  __",
@@ -232,7 +289,9 @@ func getArt(char byte) []string {
 		"/ / ",
 		"\\ \\ ",
 		" \\_\\",
-		"    ",
+		"      ",
+		"      ",
+		"      ",
 	}
 	font[61] = []string{
 		"       ",
@@ -240,6 +299,8 @@ func getArt(char byte) []string {
 		" /____/",
 		"/____/ ",
 		"  $    ",
+		"       ",
+		"       ",
 		"       ",
 	}
 	font[62] = []string{
@@ -249,6 +310,8 @@ func getArt(char byte) []string {
 		" / /",
 		"/_/ ",
 		"    ",
+		"    ",
+		"    ",
 	}
 	font[63] = []string{
 		"  ___ ",
@@ -256,6 +319,8 @@ func getArt(char byte) []string {
 		"  / _/",
 		" /_/  ",
 		"(_)   ",
+		"      ",
+		"      ",
 		"      ",
 	}
 	font[64] = []string{
@@ -265,6 +330,8 @@ func getArt(char byte) []string {
 		"/ / /_/ / ",
 		"\\ \\__,_/  ",
 		" \\____/   ",
+		"           ",
+		"           ",
 	}
 	font[65] = []string{
 		"    ___ ",
@@ -272,6 +339,8 @@ func getArt(char byte) []string {
 		"  / /| |",
 		" / ___ |",
 		"/_/  |_|",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[66] = []string{
@@ -281,6 +350,8 @@ func getArt(char byte) []string {
 		" / /_/ / ",
 		"/_____/  ",
 		"         ",
+		"         ",
+		"         ",
 	}
 	font[67] = []string{
 		"   ______",
@@ -288,6 +359,8 @@ func getArt(char byte) []string {
 		" / /     ",
 		"/ /___   ",
 		"\\____/   ",
+		"         ",
+		"         ",
 		"         ",
 	}
 	font[68] = []string{
@@ -297,6 +370,8 @@ func getArt(char byte) []string {
 		" / /_/ / ",
 		"/_____/  ",
 		"         ",
+		"         ",
+		"         ",
 	}
 	font[69] = []string{
 		"    ______",
@@ -304,6 +379,8 @@ func getArt(char byte) []string {
 		"  / __/   ",
 		" / /___   ",
 		"/_____/   ",
+		"          ",
+		"          ",
 		"          ",
 	}
 	font[70] = []string{
@@ -313,6 +390,8 @@ func getArt(char byte) []string {
 		" / __/    ",
 		"/_/       ",
 		"          ",
+		"          ",
+		"          ",
 	}
 	font[71] = []string{
 		"   ______",
@@ -320,6 +399,8 @@ func getArt(char byte) []string {
 		" / / __  ",
 		"/ /_/ /  ",
 		"\\____/   ",
+		"         ",
+		"         ",
 		"         ",
 	}
 	font[72] = []string{
@@ -329,6 +410,8 @@ func getArt(char byte) []string {
 		" / __  /  ",
 		"/_/ /_/   ",
 		"          ",
+		"          ",
+		"          ",
 	}
 	font[73] = []string{
 		"    ____",
@@ -336,6 +419,8 @@ func getArt(char byte) []string {
 		"   / /  ",
 		" _/ /   ",
 		"/___/   ",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[74] = []string{
@@ -345,6 +430,8 @@ func getArt(char byte) []string {
 		"/ /_/ /  ",
 		"\\____/   ",
 		"         ",
+		"         ",
+		"         ",
 	}
 	font[75] = []string{
 		"    __ __",
@@ -352,6 +439,8 @@ func getArt(char byte) []string {
 		"  / ,<   ",
 		" / /| |  ",
 		"/_/ |_|  ",
+		"         ",
+		"         ",
 		"         ",
 	}
 	font[76] = []string{
@@ -361,6 +450,8 @@ func getArt(char byte) []string {
 		" / /___",
 		"/_____/",
 		"       ",
+		"       ",
+		"       ",
 	}
 	font[77] = []string{
 		"    __  ___",
@@ -369,6 +460,8 @@ func getArt(char byte) []string {
 		" / /  / /  ",
 		"/_/  /_/   ",
 		"           ",
+		"       ",
+		"       ",
 	}
 	font[78] = []string{
 		"    _   __",
@@ -377,6 +470,8 @@ func getArt(char byte) []string {
 		" / /|  /  ",
 		"/_/ |_/   ",
 		"          ",
+		"       ",
+		"       ",
 	}
 	font[79] = []string{
 		"   ____ ",
@@ -385,6 +480,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\____/  ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[80] = []string{
 		"    ____ ",
@@ -393,6 +490,8 @@ func getArt(char byte) []string {
 		" / ____/ ",
 		"/_/      ",
 		"         ",
+		"       ",
+		"       ",
 	}
 	font[81] = []string{
 		"   ____ ",
@@ -401,6 +500,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\___\\_\\ ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[82] = []string{
 		"    ____ ",
@@ -409,6 +510,8 @@ func getArt(char byte) []string {
 		" / _, _/ ",
 		"/_/ |_|  ",
 		"         ",
+		"       ",
+		"       ",
 	}
 	font[83] = []string{
 		"   _____",
@@ -417,6 +520,8 @@ func getArt(char byte) []string {
 		" ___/ / ",
 		"/____/  ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[84] = []string{
 		"  ______",
@@ -425,6 +530,8 @@ func getArt(char byte) []string {
 		" / /    ",
 		"/_/     ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[85] = []string{
 		"   __  __",
@@ -433,6 +540,8 @@ func getArt(char byte) []string {
 		"/ /_/ /  ",
 		"\\____/   ",
 		"         ",
+		"       ",
+		"       ",
 	}
 	font[86] = []string{
 		" _    __",
@@ -441,6 +550,8 @@ func getArt(char byte) []string {
 		"| |/ /  ",
 		"|___/   ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[87] = []string{
 		" _       __",
@@ -449,6 +560,8 @@ func getArt(char byte) []string {
 		"| |/ |/ /  ",
 		"|__/|__/   ",
 		"           ",
+		"       ",
+		"       ",
 	}
 	font[88] = []string{
 		"   _  __",
@@ -457,6 +570,8 @@ func getArt(char byte) []string {
 		" /   |  ",
 		"/_/|_|  ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[89] = []string{
 		"__  __",
@@ -465,6 +580,8 @@ func getArt(char byte) []string {
 		" / /  ",
 		"/_/   ",
 		"      ",
+		"       ",
+		"       ",
 	}
 	font[90] = []string{
 		" _____",
@@ -473,6 +590,8 @@ func getArt(char byte) []string {
 		" / /__", //
 		"/____/",
 		"      ",
+		"       ",
+		"       ",
 	}
 	font[91] = []string{
 		"     ___",
@@ -481,6 +600,8 @@ func getArt(char byte) []string {
 		"  / /   ",
 		" / /    ",
 		"/__/    ",
+		"       ",
+		"       ",
 	}
 	font[92] = []string{
 		"__    ",
@@ -489,6 +610,8 @@ func getArt(char byte) []string {
 		"  \\ \\ ",
 		"   \\_\\",
 		"      ",
+		"       ",
+		"       ",
 	}
 	font[93] = []string{
 		"     ___",
@@ -497,6 +620,8 @@ func getArt(char byte) []string {
 		"   / /  ",
 		" _/ /   ",
 		"/__/    ",
+		"       ",
+		"       ",
 	}
 	font[94] = []string{
 		"  //|",
@@ -505,6 +630,8 @@ func getArt(char byte) []string {
 		" $   ",
 		"$    ",
 		"     ",
+		"       ",
+		"       ",
 	}
 	font[95] = []string{
 		"       ",
@@ -513,6 +640,8 @@ func getArt(char byte) []string {
 		"       ",
 		" ______",
 		"/_____/",
+		"       ",
+		"       ",
 	}
 	font[96] = []string{
 		"  _ ",
@@ -521,6 +650,8 @@ func getArt(char byte) []string {
 		" $  ",
 		"$   ",
 		"    ",
+		"       ",
+		"       ",
 	}
 	font[97] = []string{
 		"        ",
@@ -529,6 +660,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\__,_/  ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[98] = []string{
 		"    __  ",
@@ -537,6 +670,8 @@ func getArt(char byte) []string {
 		" / /_/ /",
 		"/_.___/ ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[99] = []string{
 		"       ",
@@ -544,6 +679,8 @@ func getArt(char byte) []string {
 		" / ___/",
 		"/ /__  ",
 		"\\___/  ",
+		"       ",
+		"       ",
 		"       ",
 	}
 	font[100] = []string{
@@ -553,6 +690,8 @@ func getArt(char byte) []string {
 		"/ /_/ /  ",
 		"\\__,_/   ",
 		"         ",
+		"       ",
+		"       ",
 	}
 	font[101] = []string{
 		"      ",
@@ -561,6 +700,8 @@ func getArt(char byte) []string {
 		"/  __/",
 		"\\___/ ",
 		"      ",
+		"       ",
+		"       ",
 	}
 	font[102] = []string{
 		"    ____",
@@ -569,6 +710,8 @@ func getArt(char byte) []string {
 		" / __/  ",
 		"/_/     ",
 		"        ",
+		"       ",
+		"       ",
 	}
 	font[103] = []string{
 		"         ",
@@ -577,6 +720,8 @@ func getArt(char byte) []string {
 		" / /_/ / ",
 		" \\__, /  ",
 		"/____/   ",
+		"       ",
+		"       ",
 	}
 	font[104] = []string{
 		"    __  ",
@@ -584,6 +729,8 @@ func getArt(char byte) []string {
 		"  / __ \\",
 		" / / / /",
 		"/_/ /_/ ",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[105] = []string{
@@ -593,6 +740,8 @@ func getArt(char byte) []string {
 		" / /  ",
 		"/_/   ",
 		"      ",
+		"      ",
+		"      ",
 	}
 	font[106] = []string{
 		"       _ ",
@@ -601,6 +750,8 @@ func getArt(char byte) []string {
 		"    / /  ",
 		" __/ /   ",
 		"/___/    ",
+		"         ",
+		"         ",
 	}
 	font[107] = []string{
 		"    __  ",
@@ -608,6 +759,8 @@ func getArt(char byte) []string {
 		"  / //_/",
 		" / ,<   ",
 		"/_/|_|  ",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[108] = []string{
@@ -617,6 +770,8 @@ func getArt(char byte) []string {
 		" / /  ",
 		"/_/   ",
 		"      ",
+		"      ",
+		"      ",
 	}
 	font[109] = []string{
 		"            ",
@@ -624,6 +779,8 @@ func getArt(char byte) []string {
 		"  / __ `__ \\",
 		" / / / / / /",
 		"/_/ /_/ /_/ ",
+		"            ",
+		"            ",
 		"            ",
 	}
 	font[110] = []string{
@@ -633,6 +790,8 @@ func getArt(char byte) []string {
 		" / / / /",
 		"/_/ /_/ ",
 		"        ",
+		"        ",
+		"        ",
 	}
 	font[111] = []string{
 		"       ",
@@ -641,6 +800,8 @@ func getArt(char byte) []string {
 		"/ /_/ /",
 		"\\____/ ",
 		"       ",
+		"        ",
+		"        ",
 	}
 	font[112] = []string{
 		"         ",
@@ -649,6 +810,8 @@ func getArt(char byte) []string {
 		"  / /_/ /",
 		" / .___/ ",
 		"/_/      ",
+		"         ",
+		"         ",
 	}
 	font[113] = []string{
 		"        ",
@@ -657,6 +820,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\__, /  ",
 		"  /_/   ",
+		"        ",
+		"        ",
 	}
 	font[114] = []string{
 		"        ",
@@ -664,6 +829,8 @@ func getArt(char byte) []string {
 		"  / ___/",
 		" / /    ",
 		"/_/     ",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[115] = []string{
@@ -673,6 +840,8 @@ func getArt(char byte) []string {
 		" (__  ) ",
 		"/____/  ",
 		"        ",
+		"        ",
+		"        ",
 	}
 	font[116] = []string{
 		"   __ ",
@@ -680,6 +849,8 @@ func getArt(char byte) []string {
 		" / __/",
 		"/ /_  ",
 		"\\__/  ",
+		"      ",
+		"      ",
 		"      ",
 	}
 	font[117] = []string{
@@ -689,6 +860,8 @@ func getArt(char byte) []string {
 		"/ /_/ / ",
 		"\\__,_/  ",
 		"        ",
+		"        ",
+		"        ",
 	}
 	font[118] = []string{
 		"       ",
@@ -696,6 +869,8 @@ func getArt(char byte) []string {
 		"| | / /",
 		"| |/ / ",
 		"|___/  ",
+		"       ",
+		"       ",
 		"       ",
 	}
 	font[119] = []string{
@@ -705,6 +880,8 @@ func getArt(char byte) []string {
 		"| |/ |/ / ",
 		"|__/|__/  ",
 		"          ",
+		"          ",
+		"          ",
 	}
 	font[120] = []string{
 		"        ",
@@ -712,6 +889,8 @@ func getArt(char byte) []string {
 		"  | |/_/",
 		" _>  <  ",
 		"/_/|_|  ",
+		"        ",
+		"        ",
 		"        ",
 	}
 	font[121] = []string{
@@ -721,6 +900,8 @@ func getArt(char byte) []string {
 		" / /_/ / ",
 		" \\__, /  ",
 		"/____/   ",
+		"         ",
+		"         ",
 	}
 	font[122] = []string{
 		"     ",
@@ -728,6 +909,8 @@ func getArt(char byte) []string {
 		"/_  /",
 		" / /_",
 		"/___/",
+		"     ",
+		"     ",
 		"     ",
 	}
 	font[123] = []string{
@@ -737,6 +920,8 @@ func getArt(char byte) []string {
 		"< <    ",
 		"/ /    ",
 		"\\_\\    ",
+		"         ",
+		"         ",
 	}
 	font[124] = []string{
 		"     __",
@@ -745,6 +930,8 @@ func getArt(char byte) []string {
 		"  / /  ",
 		" / /   ",
 		"/_/    ",
+		"       ",
+		"       ",
 	}
 	font[125] = []string{
 		"     _ ",
@@ -753,6 +940,8 @@ func getArt(char byte) []string {
 		"   _>_>",
 		" _/_/  ",
 		"/_/    ",
+		"       ",
+		"       ",
 	}
 	font[126] = []string{
 		"  /\\//",
@@ -760,6 +949,8 @@ func getArt(char byte) []string {
 		"  $   ",
 		" $    ",
 		"$     ",
+		"      ",
+		"      ",
 		"      ",
 	}
 
