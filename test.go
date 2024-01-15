@@ -7,24 +7,36 @@ import (
 	"strings"
 )
 
-func jehad(text string) string {
-	if len(text) == 0 {
-		return ""
-	}
-	mr := []byte(text)
-	var result []string
-	for i := 0; i < len(mr); i++ {
-		asciim := getArt(mr[i])
+func moaz(text string) string {
+	var s int
+	fmt.Println("choose a font 😊")
+	fmt.Println("standard = 1")
+	fmt.Println("shadow = 2")
+	fmt.Println("thinkertoy = 3")
+	fmt.Scan(&s)
+	var m2 []string
+
+	var m1 []string
+	for i := 0; i < len(text); i++ {
+		switch s {
+		case 1:
+			m2 = standard(text[i])
+		case 2:
+			m2 = shadow(text[i])
+		case 3:
+			m2 = thinkertoy(text[i])
+		}
 		if i == 0 {
-			result = asciim
+			m1 = m2
 		} else {
-			for j := 0; j < len(result); j++ {
-				result[j] += asciim[j]
+			for j := 0; j < len(m1); j++ {
+				m1[j] += m2[j]
 			}
 		}
 	}
-	return strings.Replace(strings.Join(result, "\n"), "$", " ", -1)
+	return strings.Join(m1, "\n")
 }
+
 func main() {
 	fmt.Println("Enter the string:")
 	reader := bufio.NewReader(os.Stdin)
@@ -36,7 +48,7 @@ func main() {
 	lines := strings.Split(strings.TrimSpace(text), "\\n")
 	asciiArt := []string{}
 	for _, line := range lines {
-		asciiArt = append(asciiArt, jehad(line))
+		asciiArt = append(asciiArt, moaz(line))
 	}
 	asciiArtText := strings.Join(asciiArt, "\n")
 	fmt.Println(asciiArtText)

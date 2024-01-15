@@ -1,6 +1,6 @@
 package main
 
-func getArt(char byte) []string {
+func standard(char byte) []string {
 	font := make(map[byte][]string, 100)
 	font[32] = []string{
 		"     $$",
