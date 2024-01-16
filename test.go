@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
 	"os"
 	"strings"
@@ -37,19 +36,39 @@ func moaz(text string) string {
 	return strings.Join(m1, "\n")
 }
 
+// func main() {
+// 	fmt.Println("Enter the string:")
+// 	reader := bufio.NewReader(os.Stdin)
+// 	text, err := reader.ReadString('\n')
+// 	if err != nil {
+// 		fmt.Println(err)
+// 		return
+// 	}
+// 	lines := strings.Split(strings.TrimSpace(text), "\\n")
+// 	asciiArt := []string{}
+// 	for _, line := range lines {
+// 		asciiArt = append(asciiArt, moaz(line))
+// 	}
+// 	asciiArtText := strings.Join(asciiArt, "\n")123456
+
+// 	fmt.Println(asciiArtText)
+// }
+
 func main() {
-	fmt.Println("Enter the string:")
-	reader := bufio.NewReader(os.Stdin)
-	text, err := reader.ReadString('\n')
-	if err != nil {
-		fmt.Println(err)
+	if len(os.Args) != 2 {
+		fmt.Println("Usage: go run . \"{YourText}\"")
 		return
 	}
-	lines := strings.Split(strings.TrimSpace(text), "\\n")
+
+	inputText := os.Args[1]
+
+	lines := strings.Split(strings.TrimSpace(inputText), "\\n")
 	asciiArt := []string{}
+
 	for _, line := range lines {
 		asciiArt = append(asciiArt, moaz(line))
 	}
+
 	asciiArtText := strings.Join(asciiArt, "\n")
 	fmt.Println(asciiArtText)
 }
